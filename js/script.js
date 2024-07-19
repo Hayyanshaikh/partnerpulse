@@ -4,6 +4,17 @@ $(function() {
   }).trigger('resize');
 
   counter();
+
+  var forms = $('.needs-validation');
+  forms.each(function() {
+    $(this).on('submit', function(event) {
+      event.preventDefault();
+      if (this.checkValidity() === false) {
+        event.stopPropagation();
+      }
+      $(this).addClass('was-validated');
+    });
+  });
 });
 
 const convertToOffcanvas = () => {
