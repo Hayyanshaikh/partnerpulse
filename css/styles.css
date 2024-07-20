@@ -521,10 +521,11 @@ section {
 }
 
 .dropdown-item {
-  font-size: 14px;
-  padding: 8px 20px;
-  transition: 0.2s ease-in-out;
+  font-size: 15px;
+  padding: 4px 20px;
   color: var(--bs-gray-600);
+  transition: 0.2s ease-in-out;
+  font-family: var(--poppins-font);
 }
 
 .dropdown-item:active {
@@ -570,6 +571,10 @@ section {
 }
 
 /* header */
+header {
+  border-bottom: 1px solid var(--bs-gray-200);
+}
+
 .navbar {
   padding: 0;
 }
@@ -619,6 +624,7 @@ section {
   align-items: center;
   padding: 0 !important;
   transition: 0.2s ease-in-out;
+  font-family: var(--poppins-font);
 }
 
 .navbar-collapse .nav-link {
@@ -1143,7 +1149,7 @@ footer ul a:hover {
 }
 
 /* benifits */
-.benefit_card{
+.benefit_card {
   background: transparent;
 }
 
@@ -1154,6 +1160,23 @@ footer ul a:hover {
 
 .benefit_card .card-title {
   font-weight: var(--weight-semibold);
+}
+
+/* single solution */
+.company_img {
+  height: 60px;
+  padding: 10px;
+  opacity: 0.4;
+}
+
+.pt_badge {
+  padding: 15px 20px;
+  border-radius: 50px;
+  color: var(--bs-gray-600);
+  font-size: clamp(14px,2vw,16px);
+  font-weight: var(--weight-medium);
+  border: 1px solid var(--bs-gray-200);
+  background-color: var(--bs-gray-100);
 }
 
 /* responsive */
