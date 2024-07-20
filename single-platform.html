@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Partnerpulse</title>
+  <link rel="icon" href="./images/brand/favicon.svg" />
+  <!-- phosphor icons -->
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/regular/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/thin/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/light/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/bold/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/fill/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/duotone/style.css">
+  <!-- styling css -->
+  <link rel="stylesheet" href="./plugins/bootstrap-5.3.3/bootstrap.min.css" />
+  <link rel="stylesheet" href="./plugins/swiper-11.1.4/swiper.min.css" />
+  <link rel="stylesheet" href="./plugins/aos-2.0.0/aos.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!--============================
+  =            Header            =
+  =============================-->
+  <header>
+    <nav class="navbar d-block navbar-expand-lg">
+      <div class="bg-dark py-2">
+        <div class="container-xl">
+          <div class="row gy-2">
+            <div class="col-md-6 d-md-flex d-none">
+              <ul class="list-unstyled d-flex align-items-center justify-content-center justify-content-md-start gap-3">
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-center justify-content-center justify-content-md-end gap-3">
+                <div class="d-flex align-items-center gap-1 text-white">
+                  <i class="ph ph-envelope-simple-open fs-5"></i>
+                  <span class="small">support@example.com</span>
+                </div>
+                <div class="d-flex align-items-center gap-1 text-white">
+                  <i class="ph ph-phone-call fs-5"></i>
+                  <span class="small">+92 922 6293018</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-xl py-2">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/brand/logo.svg" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu">
+          <i class="ph-bold ph-list"></i>
+        </button>
+        <div class="menu_offcanvas" id="menu">
+          <div class="offcanvas-header d-lg-none">
+            <a href="index.html" class="navbar-brand">
+              <img src="images/brand/logo.svg" alt="Logo">
+            </a>
+          </div>
+          <div class="navbar-collapse offcanvas-body">
+            <ul class="navbar-nav w-100 me-lg-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown">
+                  Platform
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="single-platform.html">Overview</a>
+                  <a class="dropdown-item" href="single-platform.html#discover-and-recruit">Discover and Recruit</a>
+                  <a class="dropdown-item" href="single-platform.html#contract-and-pay">Contract and Pay</a>
+                  <a class="dropdown-item" href="single-platform.html#track">Track</a>
+                  <a class="dropdown-item" href="single-platform.html#engage">Engage</a>
+                  <a class="dropdown-item" href="single-platform.html#protect-and-monitor">Protect and Monitor</a>
+                  <a class="dropdown-item" href="single-platform.html#optimize">Optimize</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown">
+                  Brands
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="single-brand.html">Influencer marketing</a>
+                  <a class="dropdown-item" href="single-brand.html">Affiliate marketing</a>
+                  <a class="dropdown-item" href="single-brand.html">Mobile partnerships</a>
+                  <a class="dropdown-item" href="single-brand.html">Business development</a>
+                  <a class="dropdown-item" href="single-brand.html">Analytics and attribution</a>
+                  <a class="dropdown-item" href="single-brand.html">Saas partnership marketing</a>
+                  <a class="dropdown-item" href="single-brand.html">Services</a>
+                  <a class="dropdown-item" href="single-brand.html">Managed services: influencer</a>
+                  <a class="dropdown-item" href="single-brand.html">Shopify and BigCommerce</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown">
+                  Publishers
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="single-publisher.html">Overview</a>
+                  <a class="dropdown-item" href="single-publisher.html">Affiliates</a>
+                  <a class="dropdown-item" href="single-publisher.html">Influencers and creators</a>
+                  <a class="dropdown-item" href="single-publisher.html">Mobile apps</a>
+                  <a class="dropdown-item" href="single-publisher.html">Content publishers</a>
+                  <a class="dropdown-item" href="single-publisher.html">Premium news and media publishers</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown">
+                  Partner with us
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="single-partner.html">Agency partners</a>
+                  <a class="dropdown-item" href="single-partner.html">Agency directory</a>
+                  <a class="dropdown-item" href="single-partner.html">Technology partners</a>
+                  <a class="dropdown-item" href="single-partner.html">Technology partners directory</a>
+                  <a class="dropdown-item" href="single-partner.html">Referral partners</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown">
+                  Insights
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="single-insights.html">Resources</a>
+                  <a class="dropdown-item" href="single-insights.html">Blog</a>
+                  <a class="dropdown-item" href="single-insights.html">Customer stories</a>
+                  <a class="dropdown-item" href="single-insights.html">The Partnership Economy</a>
+                  <a class="dropdown-item" href="single-insights.html">Events</a>
+                  <a class="dropdown-item" href="single-insights.html">Partnerships Experience (iPX) Event</a>
+                  <a class="dropdown-item" href="single-insights.html">Partnerships Experience Academy</a>
+                </div>
+              </li>
+            </ul>
+            <div class="header_action_btns">
+              <a href="signup.html" class="btn btn-outline">Signup</a>
+              <a href="demo.html" class="btn">
+                <span>Request demo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--====  End of Header  ====-->
+  <!--==========================
+  =            Main            =
+  ===========================-->
+  <main>
+    <!-- hero -->
+    <section class="single_platform_hero py-5">
+      <div class="container-xl">
+        <div class="row gy-5 align-items-center">
+          <div class="col-md-8 offset-md-2">
+            <hgroup class="d-flex flex-column gap-2 text-center">
+              <h1 class="hero_heading">Find the right <span>Partners</span> to drive growth</h1>
+              <p class="hero_subheading">Connect with customers at every stage of the buyer’s journey with a partner mix that includes affiliates, influencers, content publishers, and more.</p>
+            </hgroup>
+            <div class="d-flex flex-wrap align-items-center justify-content-center gap-2 mt-4 pt-3">
+              <a href="#" class="btn">
+                <span>Request a demo</span>
+              </a>
+              <a href="#" class="btn btn-outline">
+                <span>Signup now</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Benefits -->
+    <section class="benefits bg-light">
+      <div class="container-xl">
+        <div class="row gy-2 mb-5 pb-2">
+          <div class="col-md-6">
+            <h2 class="heading m-0">Top Benefits of Using PartnerPulse for Your Marketing</h2>
+          </div>
+          <div class="col-md-5 offset-md-1">
+            <p class="heading_pera">Discover how PartnerPulse can elevate your marketing strategy and drive growth. Our platform offers a range of benefits to help you achieve your goals more efficiently.</p>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-sm-6">
+            <div class="benefit_card card">
+              <div class="benefit_icon">
+                <i class="ph ph-megaphone-simple"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Enhanced Reach</h5>
+                <p class="card-text">Increase your brand visibility through affiliates, influencers, and content publishers who reach diverse audience segments.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="benefit_card card">
+              <div class="benefit_icon">
+                <i class="ph ph-chart-line-up"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Cost-Effective Marketing</h5>
+                <p class="card-text">Affiliates and influencers offer pay-per-performance models, helping you control marketing costs and improve ROI.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="benefit_card card">
+              <div class="benefit_icon">
+                <i class="ph ph-target"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Targeted Traffic</h5>
+                <p class="card-text">Attract targeted traffic with customized campaigns aligned with your business goals.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="benefit_card card">
+              <div class="benefit_icon">
+                <i class="ph ph-share-network"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Diverse Marketing Channels</h5>
+                <p class="card-text">Access a mix of channels, such as social media, blogs, and review sites, to diversify your marketing efforts and create multiple touchpoints.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="benefit_card card">
+              <div class="benefit_icon">
+                <i class="ph ph-chart-bar"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Performance Tracking</h5>
+                <p class="card-text">Use real-time analytics and reporting tools to track campaign performance and make timely decisions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="benefit_card card">
+              <div class="benefit_icon">
+                <i class="ph ph-arrows-out"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Scalable Growth</h5>
+                <p class="card-text">As your network grows, so does your growth potential. Easily scale without major additional investments.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- partnerstack marketplace -->
+    <section class="discover_recruit split-section">
+      <div class="container-xl">
+        <div class="row gy-md-0 gy-4 align-items-center">
+          <div class="col-md-5 text-center text-md-start">
+            <hgroup>
+              <span class="split-section-span">partnerstack marketplace</span>
+              <h3 class="split-section-heading">Connect with thousands of B2B-ready partners</h3>
+              <p class="split-section-pera">Magnify your brand by promoting your program to 80,000+ partners already actively using PartnerStack to market and sell SaaS.</p>
+            </hgroup>
+            <ul class="list-group unique-selling-points align-items-center align-items-lg-start border-less-list">
+              <li class="list-group-item">
+                <i class="ph-fill ph-seal-check"></i>
+                <span>Competitive commission structures</span>
+              </li>
+              <li class="list-group-item">
+                <i class="ph-fill ph-seal-check"></i>
+                <span>Seamless integration with top brands</span>
+              </li>
+              <li class="list-group-item">
+                <i class="ph-fill ph-seal-check"></i>
+                <span>Advanced analytics for performance optimization</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 offset-md-1 align-self-stretch">
+            <figure class="split-section-img">
+              <img src="images/splits/split_1.webp" alt="split image 1" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- creators -->
+    <section class="creators split-section">
+      <div class="container-xl">
+        <div class="row gy-md-0 gy-4 flex-row-reverse align-items-center">
+          <div class="col-md-5 offset-md-1 text-center text-md-start">
+            <hgroup>
+              <span class="split-section-span">Innovative Creators</span>
+              <h3 class="split-section-heading">Empower Your Creativity with Our Platform</h3>
+              <p class="split-section-pera">Join thousands of creative professionals who are leveraging our tools to enhance their content, grow their audience, and monetize their passion. Our platform provides the resources and support you need to bring your creative visions to life.</p>
+            </hgroup>
+            <a href="#" class="btn">
+              <span>Learn more</span>
+            </a>
+          </div>
+          <div class="col-md-6 align-self-stretch">
+            <figure class="split-section-img">
+              <img src="images/splits/split_2.webp" alt="creators image" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--====  End of Main  ====-->
+  <!--============================
+  =            Footer            =
+  =============================-->
+  <!-- Footer -->
+  <footer class="">
+    <div class="footer-top text-white">
+      <div class="container-xl">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-sm-6">
+            <div class="navbar-brand">
+              <img src="images/brand/logo-dark.svg" alt="">
+            </div>
+            <p class="footer-text mt-3 mb-4">
+              Become a Fixpro Plumber!<br>
+              Join our team to grow your skills! We offer great opportunities for career growth.
+            </p>
+            <a href="#" class="btn">Apply to Join Us</a>
+          </div>
+          <div class="col-lg-2 offset-lg-1 col-sm-6">
+            <h5 class="footer-heading">Company</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" class="footer-text">About Us</a></li>
+              <li><a href="#" class="footer-text">Client Reviews</a></li>
+              <li><a href="#" class="footer-text">Pricing</a></li>
+              <li><a href="#" class="footer-text">Contact Us</a></li>
+              <li><a href="#" class="footer-text">Company Policies</a></li>
+              <li><a href="#" class="footer-text">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="footer-heading">Services</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" class="footer-text">Tap Repair and Replacement</a></li>
+              <li><a href="#" class="footer-text">Toilet and Shower Leaks</a></li>
+              <li><a href="#" class="footer-text">Kitchen Installations</a></li>
+              <li><a href="#" class="footer-text">Bathroom Installations</a></li>
+              <li><a href="#" class="footer-text">Emergency Plumber</a></li>
+              <li><a href="#" class="footer-text">Saniflo Systems</a></li>
+            </ul>
+          </div>
+          <!-- Contact Section -->
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="footer-heading">Get in Touch</h5>
+            <ul class="list-unstyled mb-0">
+              <li class="footer-text"><i class="ph ph-phone"></i> +44 24 8022 7828</li>
+              <li class="footer-text"><i class="ph ph-envelope-simple-open"></i> fixproplumbing@gmail.com</li>
+              <li class="footer-text"><i class="ph ph-map-pin"></i> Tiller Road Docklands, London E14 8PX, United Kingdom</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container-xl py-2">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="text-white">© 2024 Fixpro. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-center gap-3 justify-content-end">
+              <a href="#" class="social-icon"><i class="ph ph-facebook-logo"></i></a>
+              <a href="#" class="social-icon"><i class="ph ph-x-logo"></i></a>
+              <a href="#" class="social-icon"><i class="ph ph-instagram-logo"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--====  End of Footer  ====-->
+  <!-- js files -->
+  <script type="text/javascript" src="./plugins/jquery-3.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./plugins/swiper-11.1.4/swiper.min.js"></script>
+  <script type="text/javascript" src="./plugins/bootstrap-5.3.3/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
