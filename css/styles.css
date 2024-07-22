@@ -675,13 +675,17 @@ header {
   display: flex;
   grid-gap: 10px;
   margin-bottom: 5px;
-  align-items: center;
   color: var(--bs-gray-700);
 }
 
 .unique-selling-points li i {
-  color: #52ce57;
   font-size: 18px;
+  margin-top: 5px;
+  color: var(--primary);
+}
+
+.unique-selling-points .ph-seal-check{
+  color: #52ce57;
 }
 
 .hero_img {
