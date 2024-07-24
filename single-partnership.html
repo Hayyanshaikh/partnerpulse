@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Partnerpulse</title>
+  <link rel="icon" href="./images/brand/favicon.svg" />
+  <!-- phosphor icons -->
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/regular/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/thin/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/light/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/bold/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/fill/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/duotone/style.css">
+  <!-- styling css -->
+  <link rel="stylesheet" href="./plugins/bootstrap-5.3.3/bootstrap.min.css" />
+  <link rel="stylesheet" href="./plugins/swiper-11.1.4/swiper.min.css" />
+  <link rel="stylesheet" href="./plugins/aos-2.0.0/aos.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!--============================
+  =            Header            =
+  =============================-->
+  <header>
+    <nav class="navbar d-block navbar-expand-lg">
+      <div class="bg-dark py-2">
+        <div class="container-xl">
+          <div class="row gy-2">
+            <div class="col-md-6 d-md-flex d-none">
+              <ul class="list-unstyled d-flex align-items-center justify-content-center justify-content-md-start gap-3">
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-center justify-content-center justify-content-md-end gap-3">
+                <div class="d-flex align-items-center gap-1 text-white">
+                  <i class="ph ph-envelope-simple-open fs-5"></i>
+                  <span class="small">support@example.com</span>
+                </div>
+                <div class="d-flex align-items-center gap-1 text-white">
+                  <i class="ph ph-phone-call fs-5"></i>
+                  <span class="small">+92 922 6293018</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-xl py-2">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/brand/logo.svg" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu">
+          <i class="ph-bold ph-list"></i>
+        </button>
+        <div class="menu_offcanvas" id="menu">
+          <div class="offcanvas-header d-lg-none">
+            <a href="index.html" class="navbar-brand">
+              <img src="images/brand/logo.svg" alt="Logo">
+            </a>
+          </div>
+          <div class="navbar-collapse offcanvas-body">
+            <ul class="navbar-nav w-100 me-lg-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown">
+                  Platform
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="single-platform.html">Tech Innovations</a>
+                  <a class="dropdown-item" href="single-platform.html">Tech Partners</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown">
+                  Solutions
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="single-solution.html">Affiliate</a>
+                  <a class="dropdown-item" href="single-solution.html">Influence</a>
+                  <a class="dropdown-item" href="single-solution.html">Leads</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown">
+                  Partnerships
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="single-partnership.html">Advertiser</a>
+                  <a class="dropdown-item" href="single-partnership.html">Publisher</a>
+                  <a class="dropdown-item" href="single-partnership.html">Agency</a>
+                  <a class="dropdown-item" href="single-partnership.html">Influencer</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown">
+                  Resources
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="single-resources.html">Case Studies</a>
+                  <a class="dropdown-item" href="single-resources.html">What is Affiliate?</a>
+                  <a class="dropdown-item" href="single-resources.html">Blog</a>
+                  <a class="dropdown-item" href="single-resources.html">Events</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">
+                  About us
+                </a>
+              </li>
+            </ul>
+            <div class="header_action_btns">
+              <a href="signup.html" class="btn btn-outline">Signup</a>
+              <a href="demo.html" class="btn">
+                <span>Request demo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--====  End of Header  ====-->
+  <!--==========================
+  =            Main            =
+  ===========================-->
+  <main>
+    <!-- hero -->
+    <section class="single_partnership_hero">
+      <div class="container-xl">
+        <div class="row gy-5 justify-content-center">
+          <div class="col-md-12 col-lg-8 text-center">
+            <hgroup class="d-flex flex-column gap-2">
+              <h1 class="hero_heading">Boost Your Brand Visibility with <span>Partnerpulse</span> Advertising</h1>
+              <p class="hero_subheading">Unlock unparalleled growth for your brand with PartnerPulse's targeted advertising solutions. Harness our advanced tracking and extensive network to reach your ideal audience and maximize your advertising ROI.</p>
+            </hgroup>
+            <div class="d-flex flex-wrap align-items-center justify-content-center gap-2 mt-4 pt-3">
+              <a href="#" class="btn btn-lg">
+                <span>Get Started with Advertising</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features -->
+    <section class="bg-light">
+      <div class="container-xl">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-8 text-center">
+            <h2 class="heading mb-3">Explore the Most Important Features</h2>
+            <p class="heading_pera">Explore PartnerPulse’s powerful features designed to boost your marketing efforts with advanced tools for greater ease and efficiency.</p>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-xl-6">
+            <div class="feature_card feature_large_card card">
+              <div class="card-body">
+                <div class="feature_icon">
+                  <i class="ph ph-target"></i>
+                </div>
+                <hgroup>
+                  <h5 class="card-title">Targeted Ad Placements</h5>
+                  <p class="card-text">Represents precise ad targeting to reach specific audiences based on their interests and demographics.</p>
+                </hgroup>
+              </div>
+              <figure class="feature_card_img contain d-none d-xl-block">
+                <img src="images/common/feature.svg" alt="">
+              </figure>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="row gy-4 justify-content-center">
+              <div class="col-xl-6 col-lg-3 col-sm-6">
+                <div class="feature_card card">
+                  <div class="feature_icon">
+                    <i class="ph ph-chart-line-up"></i>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Performance Analytics</h5>
+                    <p class="card-text">Shows detailed data on ad performance, such as impressions, clicks, and conversions.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-3 col-sm-6">
+                <div class="feature_card card">
+                  <div class="feature_icon">
+                    <i class="ph ph-cards"></i>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Customizable Ad Formats</h5>
+                    <p class="card-text">Indicates the availability of various ad formats that can be customized according to campaign needs.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-3 col-sm-6">
+                <div class="feature_card card">
+                  <div class="feature_icon">
+                    <i class="ph ph-chat-teardrop-text"></i>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">A/B Testing</h5>
+                    <p class="card-text">Represents testing different ad versions to determine which one performs better.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-3 col-sm-6">
+                <div class="feature_card card">
+                  <div class="feature_icon">
+                    <i class="ph ph-clock-countdown"></i>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Real-Time Reporting</h5>
+                    <p class="card-text">Provides instant updates on ad campaign performance for timely adjustments.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--====  End of Main  ====-->
+  <!--============================
+  =            Footer            =
+  =============================-->
+  <!-- Footer -->
+  <footer class="">
+    <div class="footer-top text-white">
+      <div class="container-xl">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-sm-6">
+            <div class="navbar-brand">
+              <img src="images/brand/logo-dark.svg" alt="">
+            </div>
+            <p class="footer-text mt-3 mb-4">
+              Become a Fixpro Plumber!<br>
+              Join our team to grow your skills! We offer great opportunities for career growth.
+            </p>
+            <a href="#" class="btn">Apply to Join Us</a>
+          </div>
+          <div class="col-lg-2 offset-lg-1 col-sm-6">
+            <h5 class="footer-heading">Company</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" class="footer-text">About Us</a></li>
+              <li><a href="#" class="footer-text">Client Reviews</a></li>
+              <li><a href="#" class="footer-text">Pricing</a></li>
+              <li><a href="#" class="footer-text">Contact Us</a></li>
+              <li><a href="#" class="footer-text">Company Policies</a></li>
+              <li><a href="#" class="footer-text">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="footer-heading">Services</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#" class="footer-text">Tap Repair and Replacement</a></li>
+              <li><a href="#" class="footer-text">Toilet and Shower Leaks</a></li>
+              <li><a href="#" class="footer-text">Kitchen Installations</a></li>
+              <li><a href="#" class="footer-text">Bathroom Installations</a></li>
+              <li><a href="#" class="footer-text">Emergency Plumber</a></li>
+              <li><a href="#" class="footer-text">Saniflo Systems</a></li>
+            </ul>
+          </div>
+          <!-- Contact Section -->
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="footer-heading">Get in Touch</h5>
+            <ul class="list-unstyled mb-0">
+              <li class="footer-text"><i class="ph ph-phone"></i> +44 24 8022 7828</li>
+              <li class="footer-text"><i class="ph ph-envelope-simple-open"></i> fixproplumbing@gmail.com</li>
+              <li class="footer-text"><i class="ph ph-map-pin"></i> Tiller Road Docklands, London E14 8PX, United Kingdom</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container-xl py-2">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="text-white">© 2024 Fixpro. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-center gap-3 justify-content-end">
+              <a href="#" class="social-icon"><i class="ph ph-facebook-logo"></i></a>
+              <a href="#" class="social-icon"><i class="ph ph-x-logo"></i></a>
+              <a href="#" class="social-icon"><i class="ph ph-instagram-logo"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--====  End of Footer  ====-->
+  <!-- js files -->
+  <script type="text/javascript" src="./plugins/jquery-3.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./plugins/swiper-11.1.4/swiper.min.js"></script>
+  <script type="text/javascript" src="./plugins/bootstrap-5.3.3/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
