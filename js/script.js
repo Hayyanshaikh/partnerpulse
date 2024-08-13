@@ -15,6 +15,22 @@ $(function() {
       $(this).addClass('was-validated');
     });
   });
+
+  const testimonialQuotesSlider = new Swiper('.testimonial_quotes_slider', {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+      delay: 5000,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
 });
 
 const convertToOffcanvas = () => {
