@@ -1,0 +1,12 @@
+<svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Gradient Definition -->
+    <defs>
+        <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#7f44e8;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#4169E1;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Path with Gradient Fill -->
+    <path fill="url(#gradient1)" d="M372.5,293Q366,346,314.5,358.5Q263,371,209.5,378Q156,385,145.5,331.5Q135,278,108,230Q81,182,106,117Q131,52,198,74.5Q265,97,316.5,115Q368,133,373.5,186.5Q379,240,372.5,293Z" />
+</svg>
