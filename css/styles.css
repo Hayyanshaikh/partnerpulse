@@ -213,7 +213,8 @@ ul {
 
 a {
   text-decoration: none;
-  font-size: clamp(14px, 2vw, 16px);
+  color: var(--primary);
+  font-size: inherit;
 }
 
 section {
@@ -362,7 +363,7 @@ section {
   grid-gap: 5px;
   padding: 10px 25px;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 10px;
   color: var(--white);
   align-items: center;
   display: inline-flex;
@@ -495,10 +496,10 @@ section {
 }
 
 .form-check-input {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   margin-top: 0;
-  border-radius: 3px;
+  border-radius: 5px !important;
   background-size: 13px;
   margin-left: 0 !important;
   border: 1px solid var(--bs-gray-300) !important;
@@ -512,10 +513,15 @@ section {
 
 .form-check {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   grid-gap: 10px;
   padding: 0;
   margin-bottom: 0;
+}
+
+.form-check-label {
+  font-size: 14px;
+  color: var(--bs-gray-600);
 }
 
 .dropdown-menu {
@@ -799,6 +805,10 @@ header {
   border-radius: 999px;
   padding: 10px;
   box-shadow: 0 5px 30px -12px var(--bs-gray-200);
+}
+
+.brand_filter .btn {
+    border-radius: 50px;
 }
 
 .brand_card {
@@ -1386,6 +1396,195 @@ footer a {
   font-size: clamp(14px, 2vw, 16px);
   -webkit-line-clamp: 3;
   margin-bottom: 30px;
+}
+
+/* Login & Signup */
+.signup {
+  display: flex;
+  align-items: center;
+  padding: 30px 0 !important;
+  min-height: calc(100dvh);
+  background: var(--primary-gradient);
+}
+
+.signup .navbar-brand {
+  margin: 0;
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+/*.signup>.container-xl>.row>.col-md-6 {
+  min-height: calc(100dvh - (30px * 2));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+*/
+.signup_form {
+  padding: 25px;
+  border-radius: 10px;
+  background: var(--white);
+}
+
+.signup_form :where(input, textarea, .btn, select) {
+  border-radius: 10px;
+}
+
+.signup_heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: clamp(20px, 2vw, 22px);
+  font-weight: var(--weight-semibold);
+}
+
+.col-md-6:has(.company_type) {
+  padding: 30px clamp(20px, 2vw, 40px);
+  align-items: center;
+}
+
+.company_type {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.company_type_heading {
+  text-align: center;
+  color: var(--white);
+  font-weight: var(--weight-bold);
+  font-size: clamp(26px, 4vw, 38px);
+  margin-bottom: 20px;
+}
+
+.company_type_heading span {
+  font-family: var(--poppins-font);
+}
+
+.company_type_description {
+  text-align: center;
+  color: var(--white);
+  font-size: clamp(16px, 2vw, 18px);
+}
+
+.company_type .btn {
+  color: var(--white);
+  background: var(--black);
+}
+
+.company_type .btn:hover {
+  background: var(--black);
+}
+
+.form-divider {
+  margin-block: 20px 16px;
+  border-color: var(--bs-gray-600);
+}
+
+.signup_text {
+  line-height: 1;
+  text-align: center;
+  color: var(--black);
+}
+
+.signup_text a {
+  color: var(--primary);
+}
+
+.signup .form-check {
+  margin-top: 1px;
+}
+
+/* about us */
+.team_member {
+  height: 100%;
+  padding: 25px;
+  grid-gap: 15px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 5px 30px -12px var(--bs-gray-400);
+}
+
+.team_member .card-header {
+  padding: 0;
+  border: none;
+  display: flex;
+  grid-gap: 20px;
+  align-items: center;
+  background: transparent;
+}
+
+.team_member_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.team_member .card-title {
+  margin: 4px;
+  font-size: clamp(18px, 2vw, 20px);
+  font-weight: var(--weight-semibold);
+}
+
+.team_member .card-text {
+  -webkit-line-clamp: 2;
+}
+
+.member_pation {
+  display: flex;
+  grid-gap: 10px;
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 10px;
+  flex-direction: column;
+  text-transform: capitalize;
+  font-weight: var(--weight-medium);
+}
+
+.member_pation:after {
+  content: '';
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  display: block;
+  margin-inline: auto;
+  background: var(--bs-gray-200);
+}
+
+/* single post */
+.single_post_img {
+  height: 400px;
+  margin-bottom: 30px;
+  border-radius: 10px !important;
+}
+
+.single_post_content {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+
+.single_post_content :where(h1,h2,h3,h4,h5,h6){
+  font-weight: var(--weight-semibold);
+}
+
+.single_post_content p {
+  font-size: clamp(14px, 2vw, 16px);
+  color: var(--bs-gray-600);
+}
+
+.single_post_content p strong {
+  color: var(--black);
+  font-size: clamp(16px, 2vw, 18px);
+}
+
+.post_sidebar .card-title {
+  font-weight: var(--weight-semibold);
 }
 
 /* responsive */

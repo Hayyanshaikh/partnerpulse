@@ -58,8 +58,8 @@
               </li>
             </ul>
             <div class="header_action_btns">
-              <a href="signup.html" class="btn btn-outline">Signup</a>
-              <a href="demo.html" class="btn">
+              <a href="signup.html" target="_blank" class="btn btn-outline">Signup</a>
+              <a href="#requestDemo" class="btn">
                 <span>Request demo</span>
               </a>
             </div>
@@ -92,7 +92,7 @@
       </div>
     </section>
     <!-- Features -->
-    <section class="bg-light">
+    <section class="features bg-light">
       <div class="container-xl">
         <div class="row justify-content-center mb-5">
           <div class="col-md-8 text-center">
@@ -168,8 +168,56 @@
         </div>
       </div>
     </section>
+    <!-- compliance -->
+    <section class="compliance">
+      <div class="container-xl">
+        <div class="row gy-2 mb-5 pb-2">
+          <div class="col-md-6">
+            <h2 class="heading m-0">Our Mission Statement</h2>
+          </div>
+          <div class="col-md-5 offset-md-1">
+            <p class="heading_pera">We strive to drive client growth, advocacy, and retention by enabling agencies to fully utilize CJ: our network, data, insights, technology, best-in-class service, and affiliate education.</p>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-sm-6">
+            <div class="benefit_card card">
+              <div class="benefit_icon">
+                <i class="ph ph-users text-gradient"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">We Share a Common Goal</h5>
+                <p class="card-text">To drive growth for your client. When the advertiser succeeds, it’s a win-win-win for all parties.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="benefit_card card">
+              <div class="benefit_icon">
+                <i class="ph ph-presentation-chart text-gradient"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">No Size Threshold</h5>
+                <p class="card-text">Agencies and agency-managed programs of any size receive CJ agency support.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="benefit_card card">
+              <div class="benefit_icon">
+                <i class="ph ph-user-rectangle text-gradient"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">We Respect Our Business Boundaries</h5>
+                <p class="card-text">Your success is our number one priority.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- partnership management -->
-    <section class="partnership-management">
+    <section class="partnership-management bg-light">
       <div class="container-xl">
         <div class="row mb-5 text-center">
           <div class="col-lg-6 offset-lg-3">
@@ -271,54 +319,6 @@
         </div>
       </div>
     </section>
-    <!-- compliance -->
-    <section class="compliance bg-light">
-      <div class="container-xl">
-        <div class="row gy-2 mb-5 pb-2">
-          <div class="col-md-6">
-            <h2 class="heading m-0">Our Mission Statement</h2>
-          </div>
-          <div class="col-md-5 offset-md-1">
-            <p class="heading_pera">We strive to drive client growth, advocacy, and retention by enabling agencies to fully utilize CJ: our network, data, insights, technology, best-in-class service, and affiliate education.</p>
-          </div>
-        </div>
-        <div class="row gy-4">
-          <div class="col-lg-4 col-sm-6">
-            <div class="benefit_card card">
-              <div class="benefit_icon">
-                <i class="ph ph-users text-gradient"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">We Share a Common Goal</h5>
-                <p class="card-text">To drive growth for your client. When the advertiser succeeds, it’s a win-win-win for all parties.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="benefit_card card">
-              <div class="benefit_icon">
-                <i class="ph ph-presentation-chart text-gradient"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">No Size Threshold</h5>
-                <p class="card-text">Agencies and agency-managed programs of any size receive CJ agency support.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="benefit_card card">
-              <div class="benefit_icon">
-                <i class="ph ph-user-rectangle text-gradient"></i>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">We Respect Our Business Boundaries</h5>
-                <p class="card-text">Your success is our number one priority.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <!-- publishers -->
     <section class="split-section py-lg-0">
       <div class="row gy-lg-0 gy-4 align-items-center">
@@ -401,7 +401,7 @@
       </div>
     </section>
     <!-- request demo form -->
-    <section class="request_demo">
+    <section class="request_demo" id="requestDemo">
       <div class="container-xl">
         <div class="row gy-5 align-items-center">
           <div class="col-lg-5">
@@ -441,7 +441,7 @@
             <div class="card request_demo_form">
               <div class="card-body">
                 <h5 class="card-title">Request a demo</h5>
-                <form class="row gy-sm-4 gy-3 gx-2 needs-validation" novalidate>
+                <form class="row gy-3 gx-2 needs-validation" novalidate>
                   <div class="col-12">
                     <div class="form-group">
                       <select class="form-control form-select" id="companyType" required>
@@ -955,7 +955,7 @@
         </div>
         <div class="row justify-content-center gy-4">
           <div class="col-lg-4 col-sm-6">
-            <a href="#" class="blog_card card">
+            <a href="single-post.html" class="blog_card card">
               <figure class="blog_img">
                 <img src="images/blogs/blog_1.webp" alt="">
               </figure>
@@ -972,7 +972,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a href="#" class="blog_card card">
+            <a href="single-post.html" class="blog_card card">
               <figure class="blog_img">
                 <img src="images/blogs/blog_2.webp" alt="">
               </figure>
@@ -989,7 +989,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a href="#" class="blog_card card">
+            <a href="single-post.html" class="blog_card card">
               <figure class="blog_img">
                 <img src="images/blogs/blog_3.webp" alt="">
               </figure>
