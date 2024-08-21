@@ -1709,6 +1709,32 @@ footer a {
   margin-bottom: 20px;
 }
 
+/* not found text */
+.notfound{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100dvh - 86.49px);
+  background: var(--primary-gradient);
+}
+.notfound-text{
+  display: flex;
+  line-height: 1;
+  font-size: 140px;
+  align-items: center;
+  font-weight: var(--weight-bold);
+}
+
+.notfound-sub-text{
+  font-size: 30px;
+  color: var(--black);
+  font-weight: var(--weight-semibold);
+}
+
+.notfound-text img{
+  height: 170px;
+  width: 170px;
+}
 /* responsive */
 @media (max-width: 992px) {
   .menu_offcanvas {

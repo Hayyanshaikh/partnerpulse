@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Partnerpulse</title>
+  <link rel="icon" href="./images/brand/favicon.svg" />
+  <!-- phosphor icons -->
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/regular/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/thin/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/light/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/bold/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/fill/style.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/phosphor-icons-2.1.0/duotone/style.css">
+  <!-- styling css -->
+  <link rel="stylesheet" href="./plugins/bootstrap-5.3.3/bootstrap.min.css" />
+  <link rel="stylesheet" href="./plugins/swiper-11.1.4/swiper.min.css" />
+  <link rel="stylesheet" href="./plugins/aos-2.0.0/aos.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!--============================
+  =            Header            =
+  =============================-->
+  <header>
+    <nav class="navbar py-3 d-block navbar-expand-lg">
+      <div class="container-xl">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/brand/logo.svg" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu">
+          <i class="ph-bold ph-list"></i>
+        </button>
+        <div class="menu_offcanvas" id="menu">
+          <div class="offcanvas-header d-lg-none">
+            <a href="index.html" class="navbar-brand">
+              <img src="images/brand/logo.svg" alt="Logo">
+            </a>
+          </div>
+          <div class="navbar-collapse offcanvas-body">
+            <ul class="navbar-nav w-100 me-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="publishers.html">Publishers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="advertisers.html">Advertisers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">about</a>
+              </li>
+            </ul>
+            <div class="header_action_btns">
+              <a href="signup.html" target="_blank" class="btn btn-outline">Signup</a>
+              <a href="#requestDemo" class="btn">
+                <span>Request demo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--====  End of Header  ====-->
+  <!--==========================
+  =            Main            =
+  ===========================-->
+  <main>
+    <section class="notfound py-5">
+      <div class="container-xl">
+        <div class="row align-items-center  p-5 bg-white rounded">
+          <div class="col-md-6">
+            <h1 class="notfound-text text-gradient">404</h1>
+            <h4 class="notfound-sub-text mt-3">The page you were <br> looking for doesn't exist.</h4>
+            <p class="mt-2">You may have mistyped the address or the page may have moved.</p>
+            <a href="#" class="btn mt-4">
+              <span>Go to Homepage</span>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <figure class="contain">
+              <img src="images/common/notfound.svg" alt="">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--====  End of Main  ====-->
+  <!--============================
+  =            Footer            =
+  =============================-->
+  <!-- Footer -->
+  <footer>
+    <div class="container-xl">
+      <div class="row gy-4">
+        <div class="col-lg-3 col-sm-6">
+          <div class="navbar-brand">
+            <img src="./images/brand/logo-dark.svg" alt="">
+          </div>
+          <h5>Contact us</h5>
+          <ul class="list-unstyled footer_contact">
+            <li><i class="ph ph-map-pin-area"></i> 123 Main Street, City, Country</li>
+            <li><i class="ph ph-phone"></i> +1 234 567 890</li>
+            <li><i class="ph ph-envelope"></i> info@fastfood.com</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="publishers.html" class="text-white">Publishers</a></li>
+            <li><a href="about.html" class="text-white">About Us</a></li>
+            <li><a href="contact.html" class="text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <h5>Information</h5>
+          <ul class="list-unstyled">
+            <li><a href="about.html" class="text-white">About us</a></li>
+            <li><a href="legal-info.html" class="text-white">Privicy Policy</a></li>
+            <li><a href="legal-info.html" class="text-white">Terms &amp; condition</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-6 offset-lg-1">
+          <h5>Subscribe</h5>
+          <p class="subs_text">Subscribe to our newsletter to get latest updates</p>
+          <form class="subs_form">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Email address">
+              <button class="btn">
+                <i class="ph ph-envelope-simple"></i>
+                <span>subscribe</span>
+              </button>
+            </div>
+          </form>
+          <h5>Follow us</h5>
+          <div class="social_icons">
+            <div class="icon facebook">
+              <figure>
+                <img src="images/icons/facebook.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon twitter">
+              <figure>
+                <img src="images/icons/twitter.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon instagram">
+              <figure>
+                <img src="images/icons/instagram.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon google_plus">
+              <figure>
+                <img src="images/icons/google_plus.svg" alt="">
+              </figure>
+            </div>
+            <div class="icon linkedin">
+              <figure>
+                <img src="images/icons/linkedin.svg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright text-center">
+      <div class="container-xl">
+        <p>© 2024 PartnerPulse. All rights reserved. Created by Hayyan Ali.</p>
+      </div>
+    </div>
+  </footer>
+  <!--====  End of Footer  ====-->
+  <!-- js files -->
+  <script type="text/javascript" src="./plugins/jquery-3.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./plugins/swiper-11.1.4/swiper.min.js"></script>
+  <script type="text/javascript" src="./plugins/bootstrap-5.3.3/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>
