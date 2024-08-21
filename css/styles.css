@@ -1774,6 +1774,10 @@ footer a {
 }
 
 @media (max-width: 425px) {
+  .hero_img{
+    height: 450px;
+    padding-top: 0;
+  }
   .request_demo_form {
     padding: 20px;
   }
